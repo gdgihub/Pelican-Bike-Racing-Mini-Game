@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #102430;
+  --color-foam: #f7f1e6;
+  --color-sand: #e7c98a;
+  --color-beak: #ef6b2c;
+  --color-sea: #1f8a8a;
+  --font-sans: "WenQuanYi Zen Hei", "Noto Sans SC", "PingFang SC", sans-serif;
+  --font-display: "ZCOOL KuaiLe", "WenQuanYi Zen Hei", "PingFang SC", sans-serif;
+  --radius: 1rem;
+}
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+    background: var(--color-ink);
+    color: var(--color-foam);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    .touch-controls {
+      display: none;
+    }
+  }
+
+  @media (pointer: coarse) {
+    .touch-controls {
+      display: flex;
+    }
+  }
+}
