@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "鹈鹕大肥鱼骑车",
+      "hasCanvas": false,
+      "bodyTextLen": 0,
+      "bodyTextHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bodyTextPrefix": "",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "鹈鹕大肥鱼骑车",
+      "hasCanvas": true,
+      "bodyTextLen": 78,
+      "bodyTextHash": "e942a3f00a2494a9c341c11d7032b3c21ef49c810b4426ac3d2f775ca25e0ccb",
+      "bodyTextPrefix": "海边木栈道 鹈鹕大肥鱼骑车 胖得像一条鱼的鹈鹕，踩着沙滩自行车绕泻湖跑三圈。捡小鱼，压弯再喷，别冲进海里。 Start 出发 按",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
